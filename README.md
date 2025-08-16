@@ -20,30 +20,30 @@ Model & Scaler: Saved using joblib in paths specified inside config.py
 
 ## 📂 Project Structure
 idps_project/
-│── config.py # Configuration (model path, thresholds, feature order)
-│── model.py # Detector class (loads trained ML model + scaler)
-│── detector.py # Anomaly detector logic
-│── monitor.py # Network + process monitoring
-│── idps.py # Main entry point (starts monitoring services)
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
+- │── config.py # Configuration (model path, thresholds, feature order)
+- │── model.py # Detector class (loads trained ML model + scaler)
+- │── detector.py # Anomaly detector logic
+- │── monitor.py # Network + process monitoring
+- │── idps.py # Main entry point (starts monitoring services)
+- │── requirements.txt # Python dependencies
+- │── README.md # Project documentation
 
 ## 🛠️ Installation
 1. Clone the repository:
-git clone [https://github.com/your-username/idps-project.git](https://github.com/RANIAZULFIQAR/Intrusion-Detection-and-Prevention-System.git)
-cd idps-project
+- git clone [https://github.com/your-username/idps-project.git](https://github.com/RANIAZULFIQAR/Intrusion-Detection-and-Prevention-System.git)
+- cd idps-project
 
 **(Optional but recommended) Create a virtual environment:**
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+- python -m venv venv
+- source venv/bin/activate   # Linux / Mac
+- venv\Scripts\activate      # Windows
 
 **Install dependencies:**
 pip install -r requirements.txt
 
 **⚡ Usage**
-Run the IDPS with:
-python idps.py
+- Run the IDPS with:
+- python idps.py
 
 **🔑 Running the Project**
 ⚠️ The IDPS requires Administrator / root privileges to monitor and prevent system-level activities
