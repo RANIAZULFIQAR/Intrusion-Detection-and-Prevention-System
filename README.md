@@ -53,12 +53,24 @@ Active network connections
 Running processes
 Alerts for suspicious activity will be displayed in the console.
 
+**Using the CLI**
+To run the network-based IDPS from your terminal:
+# On Windows (run as Administrator)
+python main.py --iface "Wi-Fi"
+
+# On Linux/macOS (run with sudo)
+sudo python3 main.py --iface wlan0
+
 ⚠️ Disclaimer
 
 This project is for educational and research purposes only.
-It is not a production-ready security solution.
+It is not a production-ready security sEnsure usage complies with copyright laws, data protection regulations, and cybersecurity ethics.
+The author is not responsible for misuse of this software.olution.
 Use responsibly in controlled environments.
+Ensure usage complies with copyright laws, data protection regulations, and cybersecurity ethics.
+The author is not responsible for misuse of this software.
 
 👩‍💻 Author
-Rania Zulfiqar – BS Computer Science, NUST
-GitHub: RANIAZULFIQAR
+Rania Zulfiqar
+BS Computer Science — NUST
+GitHub:[ RANIAZULFIQAR](https://github.com/RANIAZULFIQAR)
